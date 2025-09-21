@@ -6,7 +6,7 @@
 
 ## Visit the Site
 
-[Check out the live site »](https://nevid-786.github.io/Portfolio_using_CSS_Grid/)
+[Check out the live site »](https://nevid-786.github.io/Nature_Layot_using_CSS_Grid/)
 
 ---
 
@@ -49,9 +49,7 @@ This project is a personal portfolio website created to demonstrate strong under
 <img src="image.png">
 
 ---
-<video autoplay loop muted playsinline>
-  <source src="vid1.mp4" type="video/mp4">
-</video>
+
 
 
 ## 🔧 Setup & Usage
