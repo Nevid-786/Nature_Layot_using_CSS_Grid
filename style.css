@@ -31,7 +31,7 @@ box-sizing: border-box;
 .gallery{
     flex-basis: 50%;
     display:grid;
-    gap:8px;
+    gap:2px;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 140px;
    
@@ -61,4 +61,26 @@ box-sizing: border-box;
     background-position: center;
     box-shadow: 0 0 4px ;
 
+}
+/* Media queries */
+@media screen and (max-width:1024px) {
+    .container{
+        flex-direction:column;
+        padding-block: 15px;
+
+    }
+
+    .container p{
+        margin-block: 2rem;
+        font-weight: 800;
+
+    }
+    .box{
+        grid-row:span 1;
+        grid-column: span 3;
+        
+    }
+    .gallery{
+        width: 100%;
+    }
 }
