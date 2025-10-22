@@ -73,14 +73,17 @@ box-sizing: border-box;
     .container p{
         margin-block: 2rem;
         font-weight: 800;
+        
 
     }
     .box{
         grid-row:span 1;
         grid-column: span 3;
+       
         
     }
     .gallery{
         width: 100%;
+        grid-auto-rows: 250px;
     }
 }
